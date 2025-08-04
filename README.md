@@ -11,8 +11,7 @@ A full-stack AI web application that classifies animal images using a **Convolut
 
 ## 📸 Live Demo (Optional)
 
-> [🔗 Click here to try the live demo](https://your-deployment-url.vercel.app)  
-> *(You can host backend on [Render](https://render.com) and frontend on [Vercel](https://vercel.com))*
+
 
 ---
 
