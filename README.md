@@ -9,9 +9,6 @@ A full-stack AI web application that classifies animal images using a **Convolut
 
 ---
 
-## 📸 Live Demo (Optional)
-
-
 
 ---
 
@@ -42,7 +39,7 @@ A full-stack AI web application that classifies animal images using a **Convolut
 
 ## 📁 Project Structure
 
-animal-classifier-project/
+`animal-classifier-project/
 ├── .git/
 ├── dataset/                      # Optional: raw training images or zipped dataset
 │
@@ -69,6 +66,6 @@ animal-classifier-project/
 │   ├── postcss.config.mjs       # Tailwind/PostCSS config
 │   └── README.md                # Frontend-specific readme (optional)
 │
-├── .gitignore                   # Git ignore rules (e.g., node_modules, venv)
+├── .gitignore                   # Git ignore rules (e.g., node_modules, venv)`
 
 
