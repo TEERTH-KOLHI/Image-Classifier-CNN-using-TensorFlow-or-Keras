@@ -28,6 +28,10 @@ A full-stack AI web application that classifies animal images using a **Convolut
 
 ---
 
+### 🔗 Dataset Link
+
+📦 [Animals-10 (Kaggle) – raw-img](https://www.kaggle.com/datasets/alessiocorrado99/animals10)
+
 ## 🧠 Model Info
 
 - **Architecture**: CNN (Conv2D → MaxPool → Dense)
@@ -38,4 +42,34 @@ A full-stack AI web application that classifies animal images using a **Convolut
 ---
 
 ## 📁 Project Structure
+
+animal-classifier-project/
+├── .git/
+├── dataset/                      # Optional: raw training images or zipped dataset
+│
+├── flask-backend/               # 🔙 Flask backend + model
+│   ├── app.py                   # Flask app entry point
+│   ├── requirements.txt         # Python dependencies
+│   ├── README.md                # Backend-specific readme (optional)
+│   ├── model/                   # Trained CNN model
+│   │   └── animal_classifier.h5
+│   ├── static/                  # (Optional) For serving images or files
+│   ├── utils/                   # (Optional) Helper functions/modules
+│   └── venv/                    # Python virtual environment (not committed to Git)
+│
+├── nextjs-frontend/             # 🌐 Next.js frontend
+│   ├── .next/                   # Build artifacts (auto-generated)
+│   ├── node_modules/            # Installed Node packages
+│   ├── public/                  # Static assets (favicon, images, etc.)
+│   ├── src/                     # Source files (e.g., components, pages)
+│   ├── eslint.config.mjs        # ESLint config
+│   ├── jsconfig.json            # JS/TS path aliases
+│   ├── next.config.mjs          # Next.js config
+│   ├── package-lock.json        # NPM lock file
+│   ├── package.json             # Frontend dependencies & scripts
+│   ├── postcss.config.mjs       # Tailwind/PostCSS config
+│   └── README.md                # Frontend-specific readme (optional)
+│
+├── .gitignore                   # Git ignore rules (e.g., node_modules, venv)
+
 
